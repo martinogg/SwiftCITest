@@ -21,6 +21,11 @@ class swiftcitestTests: XCTestCase {
         super.tearDown()
     }
     
+    func testFail() {
+        // This test will fail
+        XCTAssert(false)
+    }
+    
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
